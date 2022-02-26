@@ -45,7 +45,7 @@ font-weight: 400;
     padding: 0;
 }
 
-@media all and (max-width:800px){
+@media  (max-width:800px){
      .header    {
          flex-direction: column;
     
@@ -54,7 +54,7 @@ font-weight: 400;
 }
 
 
-@media all and (max-width:600px){
+@media  (max-width:600px){
  .saludo{
      font-size: 20px;
  }.presentacion{

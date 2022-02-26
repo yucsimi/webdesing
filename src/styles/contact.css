@@ -32,7 +32,7 @@ font-family: monospace;
 
 }
 
-@media all and (max-width:800px){
+@media  (max-width:800px){
 
 .cartas{
     border: 1px solid red;

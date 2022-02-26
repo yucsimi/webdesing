@@ -7,7 +7,7 @@ const Header = () => {
     return (
 
 
-        <div className=' header my-2 p-0 col-10  border '>
+        <div className=' header my-2 p-0 col-10 '>
 
             <div className='texto  '>
                 <p className='saludo'>Hi !</p>

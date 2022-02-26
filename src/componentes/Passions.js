@@ -16,7 +16,7 @@ const Passions = () => {
             </div>
 
 
-            <div className='m-auto border carta d-flex col-8 col-md-10 '>
+            <div className='m-auto carta d-flex col-8 col-md-10 '>
 
                 <div className='primeraCarta col-10 col-md-4 mx-2 '>
                     <span><img src={undraw} /></span>

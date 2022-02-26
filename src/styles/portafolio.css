@@ -170,7 +170,7 @@ margin-bottom: 15px;
     margin-left: 15px;
 }
 
-@media all and (max-width:800px){
+@media  (max-width:800px){
 
     .Carta{
         border: 1px solid red;
@@ -190,7 +190,7 @@ margin-bottom: 15px;
 
     }
 }
-@media all and (max-width:500px){
+@media  (max-width:500px){
    .Carta{
        padding: 0;
     } 
