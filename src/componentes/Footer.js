@@ -12,7 +12,7 @@ const Footer = () => {
 
 
 
-            <span className="img-footer"><img src={ola} /></span>
+            <span className="img-footer"><img alt='img' src={ola} /></span>
 
             <p className="subtitle-footer">Design by Rauliqbal</p>
 

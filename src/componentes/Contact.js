@@ -22,20 +22,20 @@ const Contact = () => {
             <div className='  cartas'>
 
                 <div className='primera '>
-                    <span > <img src={git} /></span>
+                    <span > <img alt='git' src={git} /></span>
 
                 </div>
 
                 <div className='segunda '>
-                    <span > <img src={instragam} /></span>
+                    <span > <img alt='instragam' src={instragam} /></span>
                 </div>
 
                 <div className=' tercera'>
-                    <span> <img src={email} /></span>
+                    <span> <img alt='email' src={email} /></span>
                 </div>
 
                 <div className='cuarta'>
-                    <span > <img src={telephone} /></span>
+                    <span > <img alt='telephoe' src={telephone} /></span>
                 </div>
 
 

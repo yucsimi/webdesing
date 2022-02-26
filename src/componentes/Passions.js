@@ -19,13 +19,13 @@ const Passions = () => {
             <div className='m-auto carta d-flex col-8 col-md-10 '>
 
                 <div className='primeraCarta col-10 col-md-4 mx-2 '>
-                    <span><img src={undraw} /></span>
+                    <span><img alt='undraw' src={undraw} /></span>
                     <h3 >Front-End Developer</h3>
                     <p>(Sass, Bootstrap, Tailwind)</p>
 
                 </div>
                 <div className='segundaCarta col-10 col-md-4 mx-2 '>
-                    <span><img src={undraw2} /></span>
+                    <span><img alt='undrw2' src={undraw2} /></span>
 
                     <h3 >Back-End Developer</h3>
                     <p>(NodeJS, Laravel, Codeigniter)</p>
@@ -33,7 +33,7 @@ const Passions = () => {
                 </div>
                 <div className='terceraCarta  col-10 col-md-4 mx-2'>
 
-                    <span><img src={undraw3} /></span>
+                    <span><img alt='undrw=aw3' src={undraw3} /></span>
                     <h3 >UI/UX Designer</h3>
                     <p>(Figma, Zeplin, Adobe XD)</p>
 

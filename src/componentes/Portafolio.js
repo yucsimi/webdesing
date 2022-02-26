@@ -26,37 +26,37 @@ const Portafolio = () => {
             <div className='m-auto Carta d-flex col-8 col-md-10'>
 
                 <div className='cartaPrimera  col-12 col-md-4 mx-3' >
-                    <span className='ellipsemorado'><img src={ellipse} /></span>
+                    <span className='ellipsemorado'><img alt='ellipse' src={ellipse} /></span>
 
                     <div className=' interiorCarta'>
 
-                        <span className=' email '><img src={email} /></span>
+                        <span className=' email '><img alt='email' src={email} /></span>
                         <h3 className=''>Sednpay</h3>
 
                     </div>
-                    <span className='sendpay p-0'><img src={sendpay} /></span>
+                    <span className='sendpay p-0'><img alt='sendepay' src={sendpay} /></span>
 
 
                 </div>
 
                 <div className='cartaSegunda col-12 col-md-4 mx-3 '>
-                    <span className='elipseverde'><img src={ellipse2} /></span>
+                    <span className='elipseverde'><img alt='ellipse2' src={ellipse2} /></span>
 
                     <div className=' interiorcarta'>
 
                         <h3 className=''>E-comerce</h3>
                         <p className='webside '>Webside</p>
                     </div>
-                    <span className='comerce '><img src={comerce} /></span>
+                    <span className='comerce '><img alt='comerce' src={comerce} /></span>
 
 
                 </div>
                 <div className='cartaTercera col-12 col-md-4 mx-3'>
-                    <span className='elipsegris'><img src={elipse3} /></span>
+                    <span className='elipsegris'><img alt='ellipse3' src={elipse3} /></span>
 
 
-                    <p className=' p-0 logo'><img src={logo} /></p>
-                    <span className='tech p-0'><img src={tech} /></span>
+                    <p className=' p-0 logo'><img alt='logo' src={logo} /></p>
+                    <span className='tech p-0'><img alt='tech' src={tech} /></span>
 
 
 

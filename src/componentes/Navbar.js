@@ -15,13 +15,13 @@ const Nav = () => {
         <div className='nav d-flex my-2  w-100'>
 
             <div className=' my-3 logo-principal'>
-                <span className='logo'><img src={logo} /></span>
+                <span className='logo'><img alt='logo' src={logo} /></span>
 
 
             </div>
 
             <div onClick={() => { setActiveMenu(true) }} className='d-block d-md-none icono'>
-                <span className='icon'><img src={icon} /></span>
+                <span className='icon'><img alt='icon' src={icon} /></span>
             </div>
 
             <div className={`nav-mobile ${activeMenu && "nav-mobile-active"}`}>
