@@ -1,0 +1,32 @@
+.footer{
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   min-height: 300px;
+}
+
+.subtitle-footer{
+    position: relative;
+    z-index: 100;
+    font-size: 25px;
+    font-weight: 400;
+    color: wheat;
+    font-family: sans-serif;
+}
+.img-footer{
+    z-index: 99;
+    position: absolute;
+    
+    
+
+}
+.img-footer img{
+
+    width: 98.5vw;
+
+}
+@media all and(max-width:700px){
+    .img-footer img{
+max-width: 50vw;
+    }
+}

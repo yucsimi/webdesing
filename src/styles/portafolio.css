@@ -1,0 +1,218 @@
+.portafolio{
+    min-height: 393px;
+    
+}
+
+.Carta{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.titulo2{
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 100;
+    margin-bottom: 20px;
+}
+
+.my{
+    font-size: 35px;
+    color: #172774;
+font-weight: 400;
+font-family: monospace;
+
+}
+.subitle-portafolio{
+    font-size: 35px ;
+color: #14279B;
+font-weight: 600;
+font-family: monospace;
+}
+
+
+.cartaPrimera{
+    padding: 0;
+    margin: 0;
+    height: 266px;
+    border-radius: 13px;
+ box-shadow: 0 0 30px #CACACA; 
+ position: relative;
+ z-index: 100;
+
+}
+.interiorCarta{
+    display: flex;
+    align-items: center ;
+    justify-content: left;
+ z-index: 100;
+ padding: 0;
+
+
+}
+
+.cartaPrimera h3{
+    color: #6C63FF;
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    z-index: 100;
+ position: relative;
+ margin-top: 22px;
+margin-left: 17px;
+
+}
+    .email{
+ z-index: 100;
+ position: relative;
+margin-top: 19px;
+margin-left: 17px;
+
+    }
+        .sendpay{
+    display: flex;
+    justify-content: right;
+ z-index: 100;
+ position: relative;
+margin-bottom: 15px;
+margin-top: 5px;
+
+}       
+.ellipsemorado{
+    z-index: 99;
+    position: absolute;
+    margin-top: 19px;
+    margin-left: 15px;
+}
+
+
+
+
+.cartaSegunda{
+    margin: 0;
+    padding: 0;
+    height: 266px;
+    border-radius: 13px;
+ box-shadow: 0 0 30px #CACACA; 
+ position: relative;
+ z-index: 100;
+}
+
+
+    .webside{
+        color: #4581F6;
+        font-size: 14px;
+        font-family: sans-serif;
+        font-weight: 600;
+        margin: 0;
+        position: relative;
+ z-index: 100;
+ 
+ margin-left: 110px;
+    }
+
+    .cartaSegunda h3{
+    color: #4581F6;
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    margin: 0;
+    position: relative;
+ z-index: 100;
+ margin-top: 22px;
+ margin-left: 17px;
+    }
+
+    .comerce{
+        display: flex;
+    justify-content: right;
+    position: relative;
+ z-index: 100;
+margin-bottom: 15px;
+
+    }
+
+    .elipseverde{
+    z-index: 99;
+    position: absolute;
+    margin-top: 19px;
+    margin-left: 15px;
+
+    }
+.cartaTercera{
+    height: 266px;
+    border-radius: 13px;
+ box-shadow: 0 0 30px #CACACA; 
+ position: relative;
+ z-index: 100;
+
+}
+.logo{
+margin-top: 22px;
+margin-left: 19px;
+}
+.tech{
+    display: flex;
+justify-content: right;
+z-index: 100;
+position: relative;
+margin-bottom: 15px;
+
+}
+.elipsegris{
+    z-index: 99;
+    position: absolute;
+    margin-top: 19px;
+    margin-left: 15px;
+}
+
+@media all and (max-width:800px){
+
+    .Carta{
+        border: 1px solid red;
+        flex-direction: column;
+        margin: 0 auto;
+        
+    }
+    .cartaPrimera{
+        margin-bottom: 10px;
+    }
+    .cartaSegunda{
+        margin-bottom: 10px;
+
+    }
+    .cartaTercera{
+        margin-top: 10px;
+
+    }
+}
+@media all and (max-width:500px){
+   .Carta{
+       padding: 0;
+    } 
+
+    .interiorcar{
+        margin-top: 20px;
+    }
+    .sendpay img{
+    max-width: 89%;
+    margin-top: 25px;
+    }
+.comerce img{
+    max-width: 89%;
+    margin-top: 25px;
+}
+.tech img{
+    max-width: 89%;
+    margin-top: 20px;
+}
+.elipsegris{
+    margin-top: 25px;
+}
+
+
+} 

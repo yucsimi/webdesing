@@ -1,0 +1,102 @@
+.passions{
+    min-height: 393px;
+    background: white;
+}
+.titulo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.additional{
+    font-size: 35px ;
+    color: #172774;
+
+    font-weight: 600;
+    font-family: monospace;
+    padding: 0;
+}
+.passions1{
+    font-size: 35px;
+    color: #14279B;
+
+font-weight: 600;
+font-family: monospace;
+
+}
+
+.carta{
+ /*  display: flex;   */
+     justify-content: space-around; 
+    text-align: center;
+    border: none;
+
+}
+
+.primeraCarta{
+border-radius: 13px;
+ box-shadow: 0 0 30px #CACACA; 
+}
+
+
+
+     .primeraCarta p{
+        font-size: 18px;
+        font-family: sans-serif;
+        padding: 0;
+    } 
+.segundaCarta{
+border-radius: 13px;
+ box-shadow: 0 0 30px #CACACA; 
+}
+
+    .segundaCarta p {
+        font-size: 18px;
+        font-family: sans-serif;
+    }
+
+.terceraCarta{
+border-radius: 13px;
+ box-shadow: 0 0 30px #CACACA; 
+}
+
+    .terceraCarta p{
+        font-size: 18px;
+        font-family: sans-serif;
+    }
+
+
+
+    @media all and (max-width:800px){
+
+.carta{
+    flex-direction: column;
+    margin: 0 auto;
+
+   
+}
+.primeraCarta{
+    margin-bottom: 10px;
+
+}
+.segundaCarta{
+    margin-bottom: 10px;
+
+}
+.terceraCarta{
+    margin-top: 10px;
+
+}
+
+
+    }
+
+
+    @media all and (max-width:500px){
+.carta{
+   
+}
+
+    }

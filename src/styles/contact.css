@@ -1,0 +1,59 @@
+.contact{
+    min-Height:349px;
+   padding-top: 20px;
+}
+
+.cartas{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.cajitaTitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contac{
+font-size: 35px ;
+color: #14279B;
+font-weight: 600;
+font-family: monospace;
+}
+
+
+.me{
+    font-size: 35px;
+    color: #172774;
+font-weight: 600;
+font-family: monospace;
+
+
+}
+
+@media all and (max-width:800px){
+
+.cartas{
+    border: 1px solid red;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.primera{
+    margin-bottom: 10px;
+
+}
+.segunda{
+    margin-bottom: 10px;
+
+}
+.tercera{
+    margin-bottom: 10px;
+
+}
+.cuarta{
+    margin-top: 10px;
+
+}
+}
